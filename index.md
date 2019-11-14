@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-title: Foundations of Computer Science 2018
+title: Foundations of Computer Science 2019
 ---
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
@@ -62,16 +62,14 @@ opacity: 0.9;
 
 <div class="w3-content w3-section" style="max-width:500px;position:relative">
 
-  <img class="mySlides" src="assets/shutter6.jpg" style="width:100%">
-  
-  <img class="mySlides" src="assets/shutter2.jpg" style="width:100%">
-  <img class="mySlides" src="assets/shutter7.jpg" style="width:100%">
-  <img class="mySlides" src="assets/shutter4.jpg" style="width:100%">
-  <img class="mySlides" src="assets/shutter5.jpg" style="width:100%">
-  
-  <img class="mySlides" src="assets/shutter8.jpg" style="width:100%">
-  <img class="mySlides" src="assets/adi.jpg" style="width:100%"> 
-  
+  <img class="mySlides" src="assets/slide1.jpg" style="width:100%">
+
+  <!-- <img class="mySlides" src="assets/slide2.jpg" style="width:100%"> -->
+  <!-- <img class="mySlides" src="assets/slide3.jpg" style="width:100%"> -->
+  <!-- <img class="mySlides" src="assets/slide5.jpg" style="width:87%"> -->
+
+  <!-- <img class="mySlides" src="assets/slide6.jpg" style="width:115%"> -->
+
 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
@@ -112,67 +110,60 @@ function showDivs(n) {
 </script>
 
 <br>
-FOCS 2018 is sponsored by the IEEE Computer Society Technical Committee on Mathematical Foundations of Computing, with additional sponsorship from the CNRS (French National Center for Scientific Research), DIM Math Innov of the Île de France Region, and other sponsors as listed by the logos below.
+FOCS 2019 is sponsored by the IEEE Computer Society Technical Committee on Mathematical Foundations of Computing.
+
+### Updates
+- Sign up for <a href="http://bit.ly/FOCS19LUNCH">junior/senior mentoring lunches</a>!  Instructions at the link.  
+- Preliminary information about <a href="{{ site.url }}/workshops/">workshops and tutorials</a> has been posted, including <a href="https://sites.google.com/view/focs2019tributetoshafigoldwass/home">ShafiFest</a>!
+- The program for the main conference has been posted!  There will also be workshops on Saturday, November 9, with details TBD, and a welcome reception at 6pm on Saturday.
+- Information about the <a href="{{ site.url }}/celebration/">60th FOCS celebration</a> has been posted!
+- Information about <a href="{{ site.url }}/travel_grants/">travel awards</a> for students and postdocs is available.
+- <a href="{{ site.url }}/registration/">Registration</a> and <a href="{{ site.url }}/hotel/">hotel reservations</a> are now open.
+- <a href="{{ site.url }}/accepted/">Accepted papers</a> have been posted.
 
 ### Important Dates:
-- Submission deadline: 5:00pm PDT, April 6, 2018.
-- Notification: by July 1, 2018.
-- Final version of accepted papers due: August 15, 2018.
+- Conference: November 9 - 12, 2019
+- ~~<a href= "{{ site.url }}/registration/">Early Registration</a>: October 8, 2019~~
+- ~~<a href="{{ site.url }}/travel_grants/">Travel Awards</a>: September 15, 2019~~
+- ~~<a href="{{ site.url}}/posters/">Job Market Posters</a>: September 6, 2019~~
+- Regular Papers
+  - ~~Submission deadline: April 5, 2019, 3:00PM PDT (<a href="https://focs19.cs.utexas.edu/">submit here</a>)~~
+  - ~~Notification: by July 1, 2019~~
+  - ~~Final version of accepted papers due: mid-August, 2019~~
+<!-- - <a href="{{ site.url }}/tota/">Test of Time Award</a> Nomination deadline: April 23, 2019 -->
 
 
 
-### Contact Information:
+### Organization:
 
 
-- General Chair: Yuval Rabani, The Hebrew University of Jerusalem
-- Program Chair: Mikkel Thorup, University of Copenhagen
-- Local Arrangements Committee: Sophie Laplante; Alessandro Luongo; Adi Rosén (chair), IRIF (CNRS & U. Paris Diderot). [Email: focs2018@irif.fr](mailto:focs2018@irif.fr). In cooperation with <a href="https://dakini-pco.com" target="_blank"><img src="assets/dakini_logo.png" width="130" /></a>
+- General Chair: Yuval Rabani (The Hebrew University of Jerusalem)
+- Program Chair: David Zuckerman (University of Texas at Austin)
+- Local Arrangements Chair: Michael Dinitz (Johns Hopkins University)
+- SafeToC (anti-harassment) advocates: Sandy Irani (UC Irvine) and Martin Farach-Colton (Rutgers University)
+- 60th anniversary celebration committee: Ronitt Rubinfeld (MIT, chair), Avrim Blum (TTI-Chicago)
+- Job-market poster session co-chairs: Shubhangi Saraf (Rutgers University), Ravi Kumar (Google)
+- Workshop and Tutorial co-chairs: Robert Kleinberg (Cornell University) and Maria-Florina Balcan (Carnegie Mellon University)
+
 
 ### Sponsors:
 
-<br>
 <table class="tg">
-
 <tr>
-<td class="tg-031e"> <a href="http://www.cnrs.fr/index.php" target="_blank"><img src="assets/cnrs.png" width="80" /></a>   </td>
-<td class="tg-031e"> <a href="https://www.dim-mathinnov.fr" target="_blank"><img src="assets/mathinnov.jpg" width="90" /></a>  </td>
+<td class="tg-031e"> <a href="https://www.microsoft.com/" target="_blank"><img src="assets/MSFT_logo.png" width="200" /></a>   </td>
+<td class="tg-031e"> <a href="https://www.akamai.com/" target="_blank"><img src="assets/Akamai-Logo-RGB.png" width="200" /></a>   </td>
 </tr>
-
-
 <tr>
-<td class="tg-031e"> <br> <a href="https://www.irif.fr/~adiro/filofocs/filofocs_lab/filofocs_lab.html" target="_blank"><img src="assets/filofocs_.png" width="115" /></a>  </td>
-
-<td class="tg-031e"><br> <a href="https://www.irif.fr//en/index" target="_blank"><img src="assets/irif_full.jpg" width="105" /></a>   </td>
+<td class="tg-031e"> <a href="https://www.research.ibm.com/" target="_blank"><img src="assets/IBM_Research_Logo.png" width="200" /></a>   </td>
+<td class="tg-031e"> <a href="https://www.google.com/" target="_blank"><img src="assets/GoogleLogo_Color.png" width="180" /></a>   </td>
 </tr>
-
-<br>
-
 <tr>
-  <br>
-<td class="tg-031e"> <a href="http://barc.ku.dk/" target="_blank"><img src="assets/BARC_logo.png" width="90" height="100"  /></a>  </td>
-
+<td class="tg-031e"> <a href="https://www.ieee.org/" target="_blank"><img src="assets/ieee_left.png" width="180" /></a>   </td>
+<td class="tg-031e"> <a href="https://www.computer.org/" target="_blank"><img src="assets/ieee_right.png" width="180"  /></a>  </td>
 </tr>
-
-
 <tr>
-<td class="tg-031e"> <a href="https://aws.amazon.com/" target="_blank"> <img src="assets/aws.png" width="100" /> </a></td>
-<td class="tg-031e"> <a href="https://research.google.com/" target="_blank"><img src="assets/google.png" width="200" /></a>   </td>
+<td class="tg-031e"> <a href="https://www.nsf.gov/" target="_blank"><img src="assets/NSF_Logo.png" width="180" /></a>   </td>
 </tr>
-
-<tr>
-<td class="tg-031e"> <a href="https://www.research.ibm.com/" target="_blank"><img src="assets/ibmz.png" width="170" /></a>   </td>
-<td class="tg-031e"> <a href="https://www.microsoft.com/en-us/research/" target="_blank"><img src="assets/microsoft.jpg" width="220" /></a>   </td>
-</tr>
-
-
-<br>
-<tr>
-<td class="tg-031e"> <a href="https://www.computer.org/" target="_blank"><img src="assets/ieee_left.png" width="200" /></a>   </td>
-<td class="tg-031e"> <a href="https://www.computer.org/" target="_blank"><img src="assets/ieee_right.png" width="180" height="100"  /></a>  </td>
-</tr>
-
-
-
 </table>
 
 
@@ -186,4 +177,3 @@ FOCS 2018 is sponsored by the IEEE Computer Society Technical Committee on Mathe
 [dakini]: assets/dakini_logo.png
 [microsoft]: assets/microsoft.jpg
 [google]: assets/google.png
-
